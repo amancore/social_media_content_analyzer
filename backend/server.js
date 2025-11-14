@@ -1,10 +1,10 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
 const analyzeRoutes = require("./routes/analyzeRoutes");
 const fs = require("fs");
 const path = require("path");
-require("dotenv").config();
 const app = express();
 app.use(
 	cors({
@@ -17,7 +17,6 @@ app.use(
 		credentials: true,
 	})
 );
-
 
 app.use(express.json());
 
