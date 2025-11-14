@@ -56,7 +56,7 @@ This tool helps creators, marketers, and analysts understand the tone of their s
 ---
 
 ## 🌐 Live Demo
-🔗 **https://socialmedia-analyzer-fawn.vercel.app/**
+🔗 **https://social-media-content-analyzer-five.vercel.app/**
 
 ---
 
@@ -99,7 +99,7 @@ npm start
 ### **Backend `.env`**
 
 ```env
-FRONTEND_URL=https://socialmedia-analyzer-fawn.vercel.app/
+FRONTEND_URL=https://social-media-content-analyzer-five.vercel.app/
 PORT=10000
 NODE_ENV=production
 ```
